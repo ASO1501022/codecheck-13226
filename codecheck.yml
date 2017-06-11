@@ -1,0 +1,5 @@
+build:
+- composer install
+env:
+  APP_COMMAND: php index.php
+test: mocha --timeout 30000
